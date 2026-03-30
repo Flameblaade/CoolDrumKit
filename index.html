@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="drumicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flameblade's Drum Kit</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Flameblade's really cool drum kit</h1>
+
+      <div class="keys">
+      <div data-key="t" class="key">
+        <kbd>T</kbd>
+        <span class="sound">Crash</span>
+      </div>
+
+      <div data-key=" " class="key">
+        <kbd>SPACE</kbd>
+        <span class="sound">Bass</span>
+      </div>
+
+      <div data-key="f" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Open Hat</span>
+      </div>
+
+      <div data-key="g" class="key">
+        <kbd>G</kbd>
+        <span class="sound">Closed Hat</span>
+      </div>
+
+      <div data-key="j" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Snare</span>
+      </div>
+
+      <div data-key="y" class="key">
+        <kbd>Y</kbd>
+        <span class="sound">High Tom</span>
+      </div>
+
+      <div data-key="u" class="key">
+        <kbd>U</kbd>
+        <span class="sound">Low Tom</span>
+      </div>
+
+      <div data-key="k" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Floor</span>
+      </div>
+
+      <div data-key="l" class="key">
+        <kbd>L</kbd>
+        <span class="sound">Ride</span>
+      </div>
+      </div>
+
+    </div>
+
+    <audio data-key=" " src="kit/kickBass.wav"></audio>
+    <audio data-key="t" src="kit/crash.wav"></audio>
+    <audio data-key="f" src="kit/openHat.wav"></audio>
+    <audio data-key="g" src="kit/closedHat.wav"></audio>
+    <audio data-key="j" src="kit/snare.wav"></audio>
+    <audio data-key="y" src="kit/highTom.wav"></audio>
+    <audio data-key="u" src="kit/midTom.wav"></audio>
+    <audio data-key="k" src="kit/floor.wav"></audio>
+    <audio data-key="l" src="kit/ride.wav"></audio>
+    
+    <footer>
+      <p>&copy; 2023 Flameblade's really cool Drum Kit. 30 days of JavaScript Challenge #1</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
